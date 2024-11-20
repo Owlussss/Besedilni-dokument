@@ -29,16 +29,18 @@ Uporaba umetne inteligence v izobraževalnem procesu ponuja številne prednosti,
 ## kazalo virov
  
 #
--[1] Dhar, V. (2024). The Paradigm Shifts in Artificial Intelligence. Communications of the ACM, 67(11), 50–59. https://doi.org/10.1145/3664804
 
--[2] Kasinidou, M., Kleanthous, S., & Otterbacher, J. (2024). “Artificial intelligence is a very broad term”: How educators perceive Artificial Intelligence? 315–323. https://doi.org/10.1145/3677525.3678677
+## Kazalo virov
 
-- [3] Ponticorvo, M., & Dell’Aquila, E. (2024). Robots at schools: Telerobotics, coding and teaching embodied artificial intelligence. ACM International Conference Proceeding Series, 1–6. https://doi.org/10.1145/3664934.3664940
+- [1] V. Dhar, "The Paradigm Shifts in Artificial Intelligence," *Communications of the ACM*, vol. 67, no. 11, pp. 50–59, 2024. [https://doi.org/10.1145/3664804](https://doi.org/10.1145/3664804)
 
-- [4]-Touretzky, D., Gardner-Mccune, C., Cox, B., Uchidiuno, J., Kolodner, J., & Stapleton, P. (2023). Lessons Learned from Teaching Artificial Intelligence to Middle School Students. SIGCSE 2023 - Proceedings of the 54th ACM Technical Symposium on Computer Science Education, 2, 1371. https://doi.org/10.1145/3545947.3576315
+- [2] M. Kasinidou, S. Kleanthous, and J. Otterbacher, "\"Artificial intelligence is a very broad term\": How educators perceive Artificial Intelligence?" *Proceedings of the ACM Conference on Educational Innovation*, pp. 315–323, 2024. [https://doi.org/10.1145/3677525.3678677](https://doi.org/10.1145/3677525.3678677)
 
--[5]Xin, D., & Shi, C. (2024). Application of Hybrid Image Processing Based on Artificial Intelligence in Interactive English Teaching. ACM Transactions on Asian and Low-Resource Language Information Processing. https://doi.org/10.1145/3626822
+- [3] M. Ponticorvo and E. Dell’Aquila, "Robots at schools: Telerobotics, coding and teaching embodied artificial intelligence," *ACM International Conference Proceeding Series*, pp. 1–6, 2024. [https://doi.org/10.1145/3664934.3664940](https://doi.org/10.1145/3664934.3664940)
 
+- [4] D. Touretzky, C. Gardner-Mccune, B. Cox, J. Uchidiuno, J. Kolodner, and P. Stapleton, "Lessons Learned from Teaching Artificial Intelligence to Middle School Students," in *SIGCSE 2023 - Proceedings of the 54th ACM Technical Symposium on Computer Science Education*, vol. 2, pp. 1371, 2023. [https://doi.org/10.1145/3545947.3576315](https://doi.org/10.1145/3545947.3576315)
+
+- [5] D. Xin and C. Shi, "Application of Hybrid Image Processing Based on Artificial Intelligence in Interactive English Teaching," *ACM Transactions on Asian and Low-Resource Language Information Processing*, 2024. [https://doi.org/10.1145/3626822](https://doi.org/10.1145/3626822)
 
 
 
