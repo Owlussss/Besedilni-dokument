@@ -36,17 +36,7 @@ Thus, proper documentation and reporting not only simplify day-to-day operations
 
 ---
 
-## References
 
-[1] IEEE Standards Association, *The Importance of Documentation and Reporting Standards*, IEEE Std., 2021. [Online]. Available: https://www.ieee.org
-
-[2] J. Doe, *Technical Writing for Engineers and Scientists*, 2nd ed. New York: Academic Press, 2019.
-
-[3] A. Smith, "Knowledge management through effective documentation," *Journal of Organizational Efficiency*, vol. 14, no. 3, pp. 45-52, 2020.
-
-[4] P. Brown, *Financial Reporting Basics*, London: Finance Publishers, 2018.
-
-[5] L. Wang and R. Gupta, "Enhancing stakeholder communication through structured reporting," *International Business Review*, vol. 32, no. 1, pp. 12-23, 2021.
 
 [6] R. Patel, "Process optimization via clear documentation standards," *Operational Management Today*, vol. 8, no. 2, pp. 88-95, 2019.
 
