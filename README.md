@@ -26,9 +26,7 @@ In 2023, Artificial Intelligence (AI) gained global attention with the rise of p
 
 Uporaba umetne inteligence v izobraževalnem procesu ponuja številne prednosti, kot so personalizacija učnih poti in podpora pri odločanju (1).
 
-## kazalo virov
- 
-#
+
 
 ## Kazalo virov
 
