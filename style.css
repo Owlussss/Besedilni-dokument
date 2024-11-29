@@ -25,16 +25,27 @@ body {
     justify-content: center;
     background-color: black;
     height: 50px;
-    width: 50px;
+    width: 100px;
     color:white;
     border-radius: 13px;
     border: none;
     text-decoration: none;
+    
+}
+.sett{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
 }
 
 nav {
     height: 12vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 main {
