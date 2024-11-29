@@ -6,11 +6,12 @@
 
 body {
     background: linear-gradient(to bottom, #23C0A1, #105A4B);
-    height: 100vh;
-    width: 100%;
-    display: flex;
 }
 
+.container {
+    height: 100vh;
+    width: 100%;
+}
 
 .blur-background {
     position: absolute;
@@ -57,7 +58,7 @@ body {
 }
 
 nav {
-    height: 12vh;
+    height: 10vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -65,17 +66,17 @@ nav {
 }
 
 main {
-    height: 90vh;
+    height: 85vh;
     width: 100%;
+    flex-grow: 1;
 }
+
 footer{
-
-width:100%;
-height: 5vh;
-
-
+    width:100%;
+    height: 5vh;
+    margin-top: 95vh;
 }
-#viol{
 
-    color:purple
+#viol{
+    color: purple;
 }
