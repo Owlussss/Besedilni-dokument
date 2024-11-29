@@ -8,6 +8,7 @@ body {
     background: linear-gradient(to bottom, #23C0A1, #105A4B);
     height: 100vh;
     width: 100%;
+    display: flex;
 }
 
 
@@ -66,4 +67,15 @@ nav {
 main {
     height: 90vh;
     width: 100%;
+}
+footer{
+
+width:100%;
+height: 5vh;
+
+
+}
+#viol{
+
+    color:purple
 }
