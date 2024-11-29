@@ -28,6 +28,8 @@ body {
     width: 50px;
     color:white;
     border-radius: 13px;
+    border: none;
+    text-decoration: none;
 }
 
 nav {
