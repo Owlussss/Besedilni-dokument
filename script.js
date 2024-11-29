@@ -1,4 +1,4 @@
-// dark mode toggle
+// 1) dark mode toggle
 const darkModeButton = document.getElementById("dark-mode-btn");
 const nav = document.getElementById("nav");
 
@@ -13,3 +13,4 @@ darkModeButton.addEventListener('click', () => {
     }
 });
 
+// 2) show date

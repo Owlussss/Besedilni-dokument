@@ -20,11 +20,14 @@ body {
     
 }
 .Button {
-background-color: black;
-height: 100px;
-width: 100px;
-color:white
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    color:white;
+    border-radius: 13px;
 }
 
 nav {
@@ -34,10 +37,5 @@ nav {
 
 main {
     height: 90vh;
-    width: 100%;
-}
-
-footer {
-    height: 5vh;
     width: 100%;
 }
