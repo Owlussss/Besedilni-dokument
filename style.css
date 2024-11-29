@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #23C0A1, #105A4B);
+    height: 100vh;
+    width: 100%;
+}
+
+
+.blur-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(13px);
+}
+
+nav {
+    height: 5vh;
+    width: 100%;
+}
+
+main {
+    height: 90vh;
+    width: 100%;
+}
+
+footer {
+    height: 5vh;
+    width: 100%;
+}
