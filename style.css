@@ -9,6 +9,13 @@
     height: 100vh;
     width: 100%;
 }
+.container.dark-mode{
+
+    background: linear-gradient(to bottom, rgb(2, 40, 21), rgb(1, 55, 42));
+    height: 100vh;
+    width: 100%;
+
+}
 
 .blur-background {
     position: absolute;
@@ -17,6 +24,16 @@
     background: rgb(255, 255, 255);
     backdrop-filter: blur(13px);
     
+}
+.blur-background.dark-mode{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    backdrop-filter: blur(13px);
+    
+
+
 }
 .Button {
     display: flex;
@@ -32,6 +49,21 @@
     margin-left: 100px;
     margin-right: 100px;
     
+}
+Button.dark-mode{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    color:black;
+    border-radius: 13px;
+    border: none;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .spacer {
@@ -66,7 +98,9 @@ main {
     height: 85vh;
     width: 100%;
     flex-grow: 1;
+
 }
+
 
 footer{
     width:100%;
