@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: linear-gradient(to bottom, #23C0A1, #105A4B);
+    height: 100vh;
+    width: 100%;
+}
+.container.dark-mode{
+
+    background: linear-gradient(to bottom, rgb(2, 40, 21), rgb(1, 55, 42));
+    height: 100vh;
+    width: 100%;
+
+}
+
+.blur-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(13px);
+    
+}
+.blur-background.dark-mode{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    backdrop-filter: blur(13px);
+    
+
+
+}
+.Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    color:white;
+    border-radius: 13px;
+    border: none;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+Button.dark-mode{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    color:black;
+    border-radius: 13px;
+    border: none;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.spacer {
+    height: 50px;
+    width: 50px;
+}
+
+.settings {
+    margin-right: 25px;
+    height: 50px;
+    width: 50px;
+}
+.settings > img {
+    height: 50px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25px;
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+}
+nav.dark-mode{
+
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(36, 34, 34);
+}
+
+main {
+    height: 85vh;
+    width: 100%;
+    flex-grow: 1;
+
+}
+
+
+footer {
+    width: 100%;
+    height: 5vh;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#nightmode>img{
+
+     
+    height: 20px;
+    width:20px;
+     
+}
+h1{
+
+padding-top: 10%;
+font-family: 'Courier New', Courier, monospace;
+
+}
+p {
+    padding-top: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    width: 60%;
+    margin-left: 20%;
+    word-wrap: break-word;
+}
+#img1 {
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    
+}
+
+
