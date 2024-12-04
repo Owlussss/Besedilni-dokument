@@ -1,5 +1,5 @@
 // 1) dark mode toggle
-const darkModeButton = document.getElementById("dark-mode-btn");
+const darkModeButton = document.getElementById("nightmode");
 const nav = document.getElementById("nav");
 
 darkModeButton.addEventListener('click', () => {
