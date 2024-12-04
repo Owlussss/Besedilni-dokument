@@ -8,3 +8,10 @@ darkModeButton.addEventListener('click', () => {
 });
 
 // 2) show date
+function showDate() {
+    const now = new Date();
+    const dateTimeString = now.toLocaleString();
+    document.getElementById('datetime').textContent = dateTimeString;
+}
+
+setInterval(showDate, 1000);
