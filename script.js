@@ -15,3 +15,17 @@ function showDate() {
 }
 
 setInterval(showDate, 1000);
+
+// 3) cookie clicker
+let cookies = 0
+
+function updateCookie() {
+    document.getElementById('cookieCount').textContent = cookies;
+}
+
+function cookieClick() {
+    cookies += 1;
+    updateCookie();
+}
+
+document.getElementById('cookieButton').addEventListener('click', cookieClick);
