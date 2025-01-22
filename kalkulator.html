@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AI for schools - Kalkulator</title>
+    <style>
+        .calculator-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+            padding: 1rem;
+        }
+        
+        .calculator-description {
+            flex: 1;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .calculator-wrapper {
+            flex: 1;
+        }
+    </style>
+</head>
+<body class="container">
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="onas.html" data-translate="nav-about">O nas</a></li>
+            <li><a href="profesorji.html" data-translate="nav-teachers">Profesorji in AI</a></li>
+            <li><a href="dijaki.html" data-translate="nav-students">Dijaki in AI</a></li>
+            <li><a href="kalkulator.html" data-translate="nav-calculator">Kalkulator</a></li>
+        </ul>
+        <div class="language-selector">
+            <button onclick="changeLanguage('sl')" class="lang-btn">SL</button>
+            <button onclick="changeLanguage('en')" class="lang-btn">EN</button>
+            <button onclick="changeLanguage('de')" class="lang-btn">DE</button>
+        </div>
+        <div class="date">
+            <p id="datetime"></p>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <h1 class="main-title" data-translate="calculator-title">Kalkulator</h1>
+        <div class="calculator-container">
+            <div class="calculator-wrapper">
+                <div class="calculator">
+                    <input type="text" id="display" value="" readonly>
+                    <div class="calculator-buttons">
+                        <button class="calc-btn" data-action="clear" data-translate="calc-clear">C</button>
+                        <button class="calc-btn" data-value="7">7</button>
+                        <button class="calc-btn" data-value="8">8</button>
+                        <button class="calc-btn" data-value="9">9</button>
+                        <button class="calc-btn" data-action="operator" data-value="+">+</button>
+                        <button class="calc-btn" data-value="4">4</button>
+                        <button class="calc-btn" data-value="5">5</button>
+                        <button class="calc-btn" data-value="6">6</button>
+                        <button class="calc-btn" data-action="operator" data-value="-">-</button>
+                        <button class="calc-btn" data-value="1">1</button>
+                        <button class="calc-btn" data-value="2">2</button>
+                        <button class="calc-btn" data-value="3">3</button>
+                        <button class="calc-btn" data-action="operator" data-value="*">×</button>
+                        <button class="calc-btn" data-value="0">0</button>
+                        <button class="calc-btn" data-value=".">.</button>
+                        <button class="calc-btn" data-action="calculate">=</button>
+                        <button class="calc-btn" data-action="operator" data-value="/">/</button>
+                    </div>
+                </div>
+            </div>
+            <div class="calculator-description">
+                <p data-translate="calculator-description">To je naš preprost kalkulator za prosti čas. Uporabljate ga lahko za osnovne matematične operacije in vam bo v pomoč pri vsakdanjih izračunih.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <button id="darkmode" class="footer-btn" data-translate="dark-mode">Temni način</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

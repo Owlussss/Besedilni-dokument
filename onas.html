@@ -9,30 +9,29 @@
 <body class="container">
     <nav class="navbar">
         <ul class="nav-links">
-            <li><a href="onas.html">O nas</a></li>
-            <li><a href="profesorji.html">Profesorji in AI</a></li>
-            <li><a href="dijaki.html">Dijaki in AI</a></li>
+            <li><a href="onas.html" data-translate="nav-about">O nas</a></li>
+            <li><a href="profesorji.html" data-translate="nav-teachers">Profesorji in AI</a></li>
+            <li><a href="dijaki.html" data-translate="nav-students">Dijaki in AI</a></li>
+            <li><a href="kalkulator.html" data-translate="nav-calculator">Kalkulator</a></li>
         </ul>
+        <div class="language-selector">
+            <button onclick="changeLanguage('sl')" class="lang-btn">SL</button>
+            <button onclick="changeLanguage('en')" class="lang-btn">EN</button>
+            <button onclick="changeLanguage('de')" class="lang-btn">DE</button>
+        </div>
         <div class="date">
             <p id="datetime"></p>
         </div>
     </nav>
 
     <main class="main-content">
-        <h1 class="main-title">O nas</h1>
-        <p>Na AI za šole smo predani uporabi umetne inteligence za preobrazbo izobraževanja. Naša
-            platforma je zasnovana tako, da podpira tako študente kot profesorje z vključevanjem orodij 
-            umetne inteligence, ki izboljšajo učenje, poenostavijo administrativna opravila in spodbujajo globlje
-            vključevanje v izobraževalne vsebine. Študentom zagotavljamo prilagojene izkušnje, ki se
-            prilagajajo njihovim edinstvenim potrebam in jim pomagajo doseči njihov polni potencial.
-            Profesorjem ponujamo inovativne vire, ki poenostavijo načrtovanje učnih vsebin, ocenjevanje in
-            spremljanje napredka študentov. Ne glede na to, ali ste študent, ki želi pospešiti svoje učenje, ali
-            profesor, ki išče nove načine za izboljšanje svojega poučevanja, smo tukaj, da naredimo
-            izobraževanje pametnejše, bolj učinkovito in dostopno za vse.</p>
+        <h1 class="main-title" data-translate="about-title">O nas</h1>
+        <p data-translate="about-text">Na AI za šole smo predani uporabi umetne inteligence za preobrazbo izobraževanja. Naša platforma je zasnovana tako, da podpira tako študente kot profesorje z vključevanjem orodij umetne inteligence, ki izboljšajo učenje, poenostavijo administrativna opravila in spodbujajo globlje vključevanje v izobraževalne vsebine. Študentom zagotavljamo prilagojene izkušnje, ki se prilagajajo njihovim edinstvenim potrebam in jim pomagajo doseči njihov polni potencial.
+            Profesorjem ponujamo inovativne vire, ki poenostavijo načrtovanje učnih vsebin, ocenjevanje in spremljanje napredka študentov. Ne glede na to, ali ste študent, ki želi pospešiti svoje učenje, ali profesor, ki išče nove načine za izboljšanje svojega poučevanja, smo tukaj, da naredimo izobraževanje pametnejše, bolj učinkovito in dostopno za vse.</p>
     </main>
 
     <footer class="footer">
-        <button id="darkmode" class="footer-btn">Dark Mode</button>
+        <button id="darkmode" class="footer-btn" data-translate="dark-mode">Temni način</button>
     </footer>
 
     <script src="script.js"></script>
