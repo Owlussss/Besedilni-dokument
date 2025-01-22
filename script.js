@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
     changeLanguage(currentLang);
 });
 
-// Language switching functionality
+
 function changeLanguage(lang) {
     document.documentElement.lang = lang;
     document.querySelectorAll('[data-translate]').forEach(element => {
