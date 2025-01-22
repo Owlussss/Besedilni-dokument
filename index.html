@@ -9,30 +9,36 @@
 <body class="container">
     <nav class="navbar">
         <ul class="nav-links">
-            <li><a href="onas.html">O nas</a></li>
-            <li><a href="profesorji.html">Profesorji in AI</a></li>
-            <li><a href="dijaki.html">Dijaki in AI</a></li>
+            <li><a href="onas.html" data-translate="nav-about">O nas</a></li>
+            <li><a href="profesorji.html" data-translate="nav-teachers">Profesorji in AI</a></li>
+            <li><a href="dijaki.html" data-translate="nav-students">Dijaki in AI</a></li>
+            <li><a href="kalkulator.html" data-translate="nav-calculator">Kalkulator</a></li>
         </ul>
+        <div class="language-selector">
+            <button onclick="changeLanguage('sl')" class="lang-btn">SL</button>
+            <button onclick="changeLanguage('en')" class="lang-btn">EN</button>
+            <button onclick="changeLanguage('de')" class="lang-btn">DE</button>
+        </div>
         <div class="date">
             <p id="datetime"></p>
         </div>
     </nav>
 
     <main class="main-content">
-        <h1 class="main-title">Uporaba AI v šolah</h1>
+        <h1 class="main-title" data-translate="home-title">Uporaba AI v šolah</h1>
         <div class="image-gallery">
             <img src="slike/image1.jpeg" alt="Image 1">
             <img src="slike/image2.jpeg" alt="Image 2">
             <img src="slike/image3.jpg" alt="Image 3">
         </div>
         <div class="cookie-clicker">
-            <p>Trenutno imaš <span id="cookieCount">0</span> Piškotkov</p>
-            <button id="cookieButton">Pritisni</button>
+            <p data-translate="cookie-text">Trenutno imaš <span id="cookieCount">0</span> Piškotkov</p>
+            <button id="cookieButton" data-translate="cookie-button">Pritisni</button>
         </div>
     </main>
 
     <footer class="footer">
-        <button id="darkmode" class="footer-btn">Dark Mode</button>
+        <button id="darkmode" class="footer-btn" data-translate="dark-mode">Temni način</button>
     </footer>
 
     <script src="script.js"></script>

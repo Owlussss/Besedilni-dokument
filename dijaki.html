@@ -9,23 +9,29 @@
 <body class="container">
     <nav class="navbar">
         <ul class="nav-links">
-            <li><a href="onas.html">O nas</a></li>
-            <li><a href="profesorji.html">Profesorji in AI</a></li>
-            <li><a href="dijaki.html">Dijaki in AI</a></li>
+            <li><a href="onas.html" data-translate="nav-about">O nas</a></li>
+            <li><a href="profesorji.html" data-translate="nav-teachers">Profesorji in AI</a></li>
+            <li><a href="dijaki.html" data-translate="nav-students">Dijaki in AI</a></li>
+            <li><a href="kalkulator.html" data-translate="nav-calculator">Kalkulator</a></li>
         </ul>
+        <div class="language-selector">
+            <button onclick="changeLanguage('sl')" class="lang-btn">SL</button>
+            <button onclick="changeLanguage('en')" class="lang-btn">EN</button>
+            <button onclick="changeLanguage('de')" class="lang-btn">DE</button>
+        </div>
         <div class="date">
             <p id="datetime"></p>
         </div>
     </nav>
 
     <main class="main-content">
-        <h1 class="main-title">Dijaki in AI</h1>
-        <p>Mnogi študenti urejajo vsebino, ustvarjeno z AI: 41% vedno popravi rezultate, le 3% pa tega ne počne. Glavni primeri uporabe UI med študenti vključujejo pisanje, reševanje domačih nalog, raziskovanje akademskih virov, pomoč pri matematiki in učenje jezikov.
+        <h1 class="main-title" data-translate="students-title">Dijaki in AI</h1>
+        <p data-translate="students-text">Mnogi študenti urejajo vsebino, ustvarjeno z AI: 41% vedno popravi rezultate, le 3% pa tega ne počne. Glavni primeri uporabe UI med študenti vključujejo pisanje, reševanje domačih nalog, raziskovanje akademskih virov, pomoč pri matematiki in učenje jezikov.
             UI pomaga študentom, vendar je pomembno, da učitelji spodbujajo preverjanje virov in podatkov. </p>
     </main>
 
     <footer class="footer">
-        <button id="darkmode" class="footer-btn">Dark Mode</button>
+        <button id="darkmode" class="footer-btn" data-translate="dark-mode">Temni način</button>
     </footer>
 
     <script src="script.js"></script>
